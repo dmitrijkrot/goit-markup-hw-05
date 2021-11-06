@@ -301,14 +301,16 @@ a {
   margin-right: 30px;
 }
 
-.works-desctop {
-
+.works-item {
+  position: relative;
 }
 
 .works-desctop-text {
-  padding: 27px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  
 }
 
 .works-text {
@@ -319,7 +321,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
- 
+  padding: 27px;
 }
 
 .team-list {
